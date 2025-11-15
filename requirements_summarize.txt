@@ -1,0 +1,3 @@
+google-cloud-aiplatform
+sqlalchemy
+cloud-sql-python-connector[pymysql]
