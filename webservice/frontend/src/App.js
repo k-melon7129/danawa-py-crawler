@@ -945,7 +945,7 @@ function App() {
                         <div className="app-container">
                             {/* 고정 네비게이션 바 */}
                             <nav className="main-navbar">
-                                <div className="nav-brand-main">💻 다 나올까?</div>
+                                <div className="nav-brand-main">💻 다 나올지도?</div>
                                 <div className="navbar-actions-main">
                                     <button 
                                         className="theme-toggle-btn" 
@@ -990,7 +990,7 @@ function App() {
                             </nav>
 
                             <header>
-                                <h1>💻 다 나올까? 💻</h1>
+                                <h1>💻 다 나올지도? 💻</h1>
 
                                 {/* 팀장 주석 유지: subtitle */}
                                 <p className="app-subtitle">웹 크롤링을 이용한 PC 부품 가격 비교 앱</p>

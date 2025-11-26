@@ -79,7 +79,6 @@ def main():
         if not reviews_to_summarize:
             print("새롭게 요약할 리뷰가 없습니다. 종료합니다.")
             session.close()
-            connector.close()
             return
 
         print(f"총 {len(reviews_to_summarize)}개의 리뷰를 요약합니다.")
