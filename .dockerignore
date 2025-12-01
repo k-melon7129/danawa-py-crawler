@@ -1,0 +1,88 @@
+# Git
+.git
+.gitignore
+.gitattributes
+
+# IDE
+.idea
+.vscode
+*.swp
+*.swo
+*~
+
+# Python
+__pycache__
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache
+.coverage
+htmlcov/
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm
+.eslintcache
+
+# Java
+target/
+*.class
+*.jar
+*.war
+*.ear
+.mvn/
+mvnw
+mvnw.cmd
+
+# Build artifacts
+*.log
+*.tmp
+dist/
+build/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Docker
+docker-compose.yml
+Dockerfile*
+.dockerignore
+
+# Documentation
+*.md
+!README.md
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Test files
+*.test.js
+*.spec.js
+__tests__/
+test/
+
+# Debug files
+debug_*.html
+debug_*.png
+*.sql
+
+# Workspace
+*.code-workspace
+
+# Cloud backup (disabled)
+cloud_backup_disabled/
+

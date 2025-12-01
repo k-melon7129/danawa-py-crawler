@@ -681,11 +681,11 @@ function App() {
                 console.log('API 응답:', response.data);
                 console.log('응답 타입:', typeof response.data);
                 console.log('배열 여부:', Array.isArray(response.data));
-                
+
                 // 응답 구조에 따라 데이터 추출
                 let partsData = [];
                 let totalPagesData = 0;
-                
+
                 if (Array.isArray(response.data)) {
                     // 응답이 배열인 경우
                     partsData = response.data;
@@ -702,7 +702,7 @@ function App() {
                     partsData = [];
                     totalPagesData = 0;
                 }
-                
+
                 console.log('최종 상품 데이터:', partsData);
                 console.log('최종 상품 개수:', partsData.length);
 
@@ -956,7 +956,6 @@ function App() {
 
                                 {/* 네 버전의 네비게이션 유지 */}
                                 <nav className="top-nav">
-                                    <Link to="/">가격 비교</Link>
                                     <Link to="/ai">AI 견적 추천</Link>
                                 </nav>
                             </header>
@@ -1073,7 +1072,7 @@ function App() {
                                                             console.log('상품 이름:', part.name);
                                                             console.log('상품 카테고리:', part.category);
                                                         }
-                                                        
+
                                                         // --- 👇 [수정] getSummarySpecs 함수 호출 ---
                                                         const summarySpecs = getSummarySpecs(part);
 
